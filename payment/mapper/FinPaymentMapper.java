@@ -1,0 +1,17 @@
+package com.supermarket.finance.payment.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.supermarket.finance.payment.entity.FinPayment;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface FinPaymentMapper extends BaseMapper<FinPayment> {
+}
+
+
+
+
+
+
+
+
